@@ -58,6 +58,7 @@ void main() {
       final FakeArgResults fakeArgResults = FakeArgResults(
         level: 'm',
         commit: latestCommit,
+        // Ensure this test passes after a dev release with hotfixes
         force: true,
         remote: 'origin',
       );
@@ -96,6 +97,7 @@ void main() {
       final FakeArgResults fakeArgResults = FakeArgResults(
         level: 'y',
         commit: latestCommit,
+        // Ensure this test passes after a dev release with hotfixes
         force: true,
         remote: 'origin',
       );
